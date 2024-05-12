@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "stock",
-    "slug": "stock",
+    "name": "activity",
+    "slug": "activity",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,15 +16,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.kwskicky.stock"
+      "package": "com.kwskicky.activity"
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "output": "static"
     },
     "plugins": [
       "expo-router"
@@ -38,7 +36,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "fe9bea56-0dd3-4073-a289-0937d0aa1025"
+        "projectId": "31d4766b-d61e-49db-ae76-09806c6ae574"
       }
     }
   }
